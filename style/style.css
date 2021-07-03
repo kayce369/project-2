@@ -213,10 +213,12 @@ Progress Bars
 
 .label_input_wrap {
   display: block;
+	margin-right: 10px;
 }
 
 .classifier {
   padding: 7% 0 0;
+	display: flex;
 }
 
 .reset input,
@@ -250,6 +252,7 @@ Progress Bars
 textarea {
   border: #8B1F41 solid 2px;
   border-radius: 5px;
+	flex-grow: 1;
 }
 
 textarea {
