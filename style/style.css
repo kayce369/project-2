@@ -202,6 +202,64 @@ Progress Bars
   animation-delay: .5s;
 }
 
+/*===========================
+
+
+  Form Styling
+
+
+==============================*/
+
+.label_input_wrap {
+  display: block;
+}
+
+.classifier {
+  padding: 2% 0 0;
+}
+
+.reset input,
+.submit input {
+  font-weight: bold;
+  padding: 1%;
+  background-color: #8B1F41;
+  color: white;
+}
+
+.reset,
+.submit {
+  display: inline;
+}
+
+.reset {
+  padding: 0 1%;
+}
+
+.emailform input,
+.nameform input,
+textarea {
+  border: #8B1F41 solid 2px;
+  border-radius: 5px;
+}
+
+.written {
+  position: relative;
+}
+
+.fa-linkedin {
+  color: #0021A5;
+  font-size: 60pt;
+}
+
+.contact-info p {
+  margin: 1% 0;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #200d13;
+}
+
 /* =============================================
 
 Footer Styling
