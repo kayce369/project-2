@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CTT3VHPKJQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CTT3VHPKJQ');
+    </script>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="Kayce Georgi Florida Virginia Tech Leidos web graphic design employment DC Virginia">
+    <meta name="description" content="Marketing. Communications. Design. Hokie.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kayce Georgi</title>
+
+    <!-- Style -->
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<header>
+			<div class="inside">
+				<a href="index.html"><img src="images/logo.png" alt="kg logo"/></a>
+
+      <button class="hamburger">&#9776;</button>
+      <button class="cross">&#735;</button>
+
+    	<nav class="menu">
+      	<ul>
+        	<li><a href="work.html">Work</a></li>
+        	<li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+        	<li><a href="contact.html">Contact</a></li>
+      	</ul>
+			</nav>
+
+			<nav class="desktop-menu">
+      	<ul>
+        	<li><a href="work.html">Work</a></li>
+        	<li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+        	<li><a href="contact.html">Contact</a></li>
+      	</ul>
+			</nav>
+			</div>
+
+		</header>
+
+    <!-- Main Body -->
+    <main>
+        <h1>let's chat</h1>
+
+        <aside class="left">
+          <img src="images/contact.jpg" alt="Virginia Tech Football Game" width="450">
+        </aside>
+
+        <section class="right">
+          <div class="written">
+            <p class="email"><a href="mailto:georgi.kayce@ufl.edu">georgi.kayce@ufl.edu</a></p>
+            <p class="phone"><a href="tel:+12405294709">(240) 529-4709</a></p>
+            <p>Washington, D.C.</p>
+            <a href="https://www.linkedin.com/in/kayce-georgi-1591572b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+
+          <!-- Form -->
+          <form id="test_form" class="contactform" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
+            <div class="nameform classifier">
+              <label for="nameinput" class="label_input_wrap">Name</label>
+              <input type="text" name="nameinput" id="nameinput" />
+            </div>
+
+            <div class="emailform classifier">
+              <label for="emailinput" class="label_input_wrap">Email</label>
+              <input type="email" name="emailinput" id="emailinput" />
+            </div>
+
+            <div class="comment classifier">
+              <label for="comments" class="label_input_wrap">Message</label>
+              <textarea name="comments" id="comments" cols="60" rows="6"></textarea>
+            </div>
+
+            <div class="reset button">
+              <input type="reset" value="Refresh">
+            </div>
+
+            <div class="submit button">
+              <input type="submit" value="Send">
+            </div>
+          </form>
+        </section>
+    </main>
+
+    <footer>
+      <ul>
+        <li><a href="mailto:georgi.kayce@ufl.edu">georgi.kayce@ufl.edu</a></li>
+        <li><a href="tel:2405294709">(240) 529-4709</a></li>
+        <li>Washington, DC</li>
+      </ul>
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+
+	</body>
+
+</html>
