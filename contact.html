@@ -82,11 +82,12 @@
         <h1>let's chat</h1>
 
         <section class="contact-info">
-          <p class="email"><a href="mailto:georgi.kayce@ufl.edu">georgi.kayce@ufl.edu</a></p>
-          <p class="phone"><a href="tel:+12405294709">(240) 529-4709</a></p>
+          <p><a href="mailto:georgi.kayce@ufl.edu">georgi.kayce@ufl.edu</a></p>
+          <p><a href="tel:+12405294709">(240) 529-4709</a></p>
           <p>Washington, D.C.</p>
-          <a href="https://www.linkedin.com/in/kayce-georgi-1591572b/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </section>
+
+        <p class="linkedin"><a href="https://www.linkedin.com/in/kayce-georgi-1591572b/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
 
         <!-- Form -->
         <form id="test_form" class="contactform" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
@@ -102,15 +103,17 @@
 
           <div class="comment classifier">
             <label for="comments" class="label_input_wrap">Message</label>
-            <textarea name="comments" id="comments" cols="60" rows="6"></textarea>
+            <textarea name="comments" id="comments" rows="6"></textarea>
           </div>
 
-          <div class="reset button">
-            <input type="reset" value="Refresh">
-          </div>
+          <div class="button-right">
+            <div class="reset button">
+              <input type="reset" value="Refresh">
+            </div>
 
-          <div class="submit button">
-            <input type="submit" value="Send">
+            <div class="submit button">
+              <input type="submit" value="Send">
+            </div>
           </div>
         </form>
       </section>

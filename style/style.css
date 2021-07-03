@@ -49,7 +49,8 @@ h1 {
 }
 
 p,
-article ul {
+article ul,
+form {
 	margin: 1% 5% 5%;
 }
 
@@ -59,12 +60,12 @@ article ul {
 
 a {
 	color: #0021A5;
-	transition: .5s;
+	transition: .3s;
 }
 
 a:hover {
 	text-decoration: none;
-	transition: .5s;
+	transition: .3s;
 	font-weight: bold;
 }
 
@@ -215,15 +216,24 @@ Progress Bars
 }
 
 .classifier {
-  padding: 2% 0 0;
+  padding: 7% 0 0;
 }
 
 .reset input,
 .submit input {
   font-weight: bold;
-  padding: 1%;
+  padding: 3%;
+	margin: 4% 0;
   background-color: #8B1F41;
   color: white;
+}
+
+.reset input {
+	margin-right: 4%;
+}
+
+.button-right {
+	text-align: right;
 }
 
 .reset,
@@ -242,22 +252,21 @@ textarea {
   border-radius: 5px;
 }
 
-.written {
-  position: relative;
+textarea {
+	width: 100%;
+}
+
+.contact-info {
+	text-align: center;
+}
+
+.linkedin {
+	text-align: center;
 }
 
 .fa-linkedin {
   color: #0021A5;
-  font-size: 60pt;
-}
-
-.contact-info p {
-  margin: 1% 0;
-}
-
-.contact-info a {
-  text-decoration: none;
-  color: #200d13;
+  font-size: 4em;
 }
 
 /* =============================================
@@ -375,6 +384,38 @@ Media Queries
 		color: white;
 		font-size: .8em;
 	}
+
+	.classifier {
+	  padding: 4% 0 0;
+	}
+
+	.reset input,
+	.submit input {
+	  padding: 2%;
+	}
+
+	.contact-info p {
+		text-align: left;
+		margin: 10% 0;
+	}
+
+	.contact-info {
+		float: left;
+		width: 30%;
+		margin: 1% 5%;
+	}
+
+	.linkedin {
+		width: 55%;
+		float: right;
+		text-align: left;
+		margin: 6% 0 0 5%;
+	}
+
+	form {
+		clear: both;
+	}
+
 }
 
 @media (min-width: 780px) {
