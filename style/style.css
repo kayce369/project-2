@@ -16,6 +16,13 @@ Universal Styling
 body {
   font-family: 'Lato', sans-serif;
   color: #200d13;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.container {
+	flex: 1;
 }
 
 h1,
@@ -438,10 +445,6 @@ Media Queries
 
 	.desktop-menu ul li a {
 		font-size: 1em;
-	}
-
-	.container {
-		min-height: calc(100vh - 146px);
 	}
 
 	aside {
