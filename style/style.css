@@ -31,7 +31,6 @@ h2,
 h3,
 h4 {
   font-family: 'Source Code Pro',monospace;
-  color: #200d13;
 	text-transform: lowercase;
 }
 
@@ -230,6 +229,14 @@ main {
 
 .splide:last-of-type {
 	margin-bottom: 30px;
+}
+
+.splide__slide__container, .splide__slide {
+	border-bottom: 2pt solid #0021A5;
+}
+
+.splide ul li p {
+	text-align: center;
 }
 
 main h1 {
