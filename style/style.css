@@ -534,11 +534,20 @@ Media Queries
 		margin: 2% auto;
 	}
 
+	.flex-left {
+		display: flex;
+		flex-direction: column;
+		align-self: flex-start;
+		padding: 0 1% 0 5%;
+	}
+
+	.flex-left h1 {
+		margin-bottom: 3%;
+	}
+
 	aside {
 		display: block;
-		float: left;
-		width: 15%;
-		margin: 0 1% 0 5%;
+		margin: 1% 1% 0 5%;
 		border: solid 3px #0021A5;
 		padding: 5px 1%;
 	}
@@ -552,7 +561,7 @@ Media Queries
 	article {
 		width: 70%;
 		float: right;
-		margin: 0 5% 3% 1%;
+		margin: 1% 5% 3% 1%;
 	}
 
 	article h2 {
