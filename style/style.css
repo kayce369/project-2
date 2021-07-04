@@ -447,6 +447,11 @@ Media Queries
 		font-size: 1em;
 	}
 
+	.container {
+		display: flex;
+		align-items: center;
+	}
+
 	aside {
 		display: block;
 		float: left;
