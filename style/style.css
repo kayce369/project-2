@@ -133,7 +133,7 @@ header img {
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#8B1F41;  position:absolute; text-align:center; font-size:12px;}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#8B1F41;  position:absolute; text-align:center;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 .menu ul li:hover{display: block; color:#8B1F41; background:#dddddd; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
@@ -147,8 +147,12 @@ header img {
 Resume Styling
 
 ===============================================*/
+
 aside {
-	display: none;
+	margin: 1% auto;
+	width: 70%;
+	border: solid 3px #0021A5;
+	padding: 5px 1%;
 }
 
 article h2 {
@@ -172,7 +176,7 @@ Progress Bars
   border: black solid .25px;
   border-radius: 3px;
   width: 80%;
-  margin: 10px auto;
+  margin: 10px auto 20px;
 }
 
 .expert {
@@ -507,10 +511,25 @@ Media Queries
 		margin: 6% 0 0 5%;
 	}
 
+	.resflex {
+		display: flex;
+	}
+
+	article {
+		margin: 5%;
+	}
+
+	aside {
+		width: 100%;
+	}
+
+	.flex-left {
+		margin: 1% 0 1% 5%;
+	}
+
 	form {
 		clear: both;
 	}
-
 }
 
 @media (min-width: 780px) {
@@ -552,23 +571,9 @@ Media Queries
 		margin-bottom: 3%;
 	}
 
-	aside {
-		display: block;
-		margin: 1% 1% 0 5%;
-		border: solid 3px #0021A5;
-		padding: 5px 1%;
-	}
-
 	figure {
 		width: 35%;
-		float: left;
 		margin: 3% 1% 1% 5%;
-	}
-
-	article {
-		width: 70%;
-		float: right;
-		margin: 1% 5% 3% 1%;
 	}
 
 	article h2 {
@@ -592,7 +597,6 @@ Media Queries
 
 	section {
 		width: 53%;
-		float: right;
 		margin: 3% 5% 1% 1%;
 	}
 
